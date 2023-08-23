@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/recaudos">
+
+    <fragment
+        android:id="@+id/recaudos"
+        android:name="com.example.cuadre.recaudos"
+        android:label="fragment_recaudos"
+        tools:layout="@layout/fragment_recaudos" />
+    <fragment
+        android:id="@+id/saldos"
+        android:name="com.example.cuadre.saldos"
+        android:label="fragment_saldos"
+        tools:layout="@layout/fragment_saldos" />
+    <fragment
+        android:id="@+id/caja"
+        android:name="com.example.cuadre.caja"
+        android:label="fragment_caja"
+        tools:layout="@layout/fragment_caja" />
+</navigation>
